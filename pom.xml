@@ -1,16 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
-  <groupId>focusandroidserverutils</groupId>
-  <artifactId>multidbsutils</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+	<modelVersion>4.0.0</modelVersion>
 
-  <name>multidbsutils</name>
+	<groupId>edu.pitt.sis.infsci2711</groupId>
+	<artifactId>multidbsutils</artifactId>
+	<version>0.1-SNAPSHOT</version>
 
+	<packaging>jar</packaging>
+	<name>MultiDBsUtils</name>
 
-<properties>
+	<properties>
 		<!-- ${project.parent.basedir} didn't work -->
 		<main.basedir>${project.basedir}/..</main.basedir>
 
@@ -183,4 +183,13 @@
 		</dependency>
         
 	</dependencies>
+
+	<issueManagement>
+		<system>GitHub</system>
+		<url>https://github.com/infsci2711/MultiDBs-Utils/issues</url>
+	</issueManagement>
+	<ciManagement>
+		<system>Travis-CI</system>
+		<url>NOT_CONFIGURED_YET</url>
+	</ciManagement>
 </project>
